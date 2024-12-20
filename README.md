@@ -1,4 +1,8 @@
 # Taller 10 (Laboratorio):
+## Integrantes 
+* Dalton Flores
+* Diego Espinoza 
+
 ## Construcción de programas usando arreglos bidimensionales
 
 * Lenguaje de programación : Java
