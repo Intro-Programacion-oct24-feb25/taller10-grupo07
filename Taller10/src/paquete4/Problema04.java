@@ -45,8 +45,8 @@ public class Problema04 {
                 }
             }
         }
-
-    
+        
+        
         System.out.println("\nPresentación de valores finales del arreglo:");
         for (int i = 0; i < datos.length; i++) {
             for (int j = 0; j < datos[i].length; j++) {

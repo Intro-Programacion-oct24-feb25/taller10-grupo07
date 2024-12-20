@@ -24,6 +24,7 @@ public class Problema02 {
         for (int fila = 0; fila < ventas.length; fila++) {
             System.out.printf("Ingres las ventas de %s\n", vendedores[fila]);
             for (int col = 0; col < ventas[fila].length; col++) {
+                
                 System.out.println("Ingrese la venta del dia ");
                 valor = entrada.nextInt();
                 ventas[fila][col] = valor;

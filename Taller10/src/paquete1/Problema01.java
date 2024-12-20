@@ -30,8 +30,8 @@ public class Problema01 {
         
         for (int i = 0; i < notas.length; i++) { // 0<3
             suma = 0; // 0
-            for (int j = 0; j < notas[i].length; j++) { // 0<notas[0].length
-                                                        // 0<4 // 1<4 // 2<4 // 3<4 // 4<4
+            for (int j = 0; j < notas[i].length; j++) { 
+                
                 suma = suma + notas[i][j];
                      // 0 + notas[0][0] // 0 + 9 // 9
                      // 9 + notas[0][1] // 9 + 10 // 19
@@ -42,10 +42,10 @@ public class Problema01 {
             double promedio= suma/notas[i].length;
             promedios[i]=promedio;
         }
-        
-        // Presentación de resultados
+       
         for (int i = 0; i < estudiantes.length; i++) {
-            reporte = String.format("%sEstudiante: %s tiene un promedio de %.2f\n",
+            reporte = String.format("%sEstudiante: %s tiene un "
+                    + "promedio de %.2f\n",
                     reporte,
                     estudiantes[i],
                     promedios[i]);

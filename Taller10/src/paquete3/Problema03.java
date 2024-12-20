@@ -46,7 +46,8 @@ public class Problema03 {
                     }
 
                     // Mostrar la nota y su condición cualitativa
-                    System.out.printf("Nota: %.1f - Condición: %s\n", nota, notasCualitativas[i][j]);
+                    System.out.printf("Nota: %.1f - Condición: %s\n", 
+                            nota, notasCualitativas[i][j]);
                 }
             }
         }
